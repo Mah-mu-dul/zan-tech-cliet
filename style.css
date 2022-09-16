@@ -1,0 +1,44 @@
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+body {
+  background-image: url("img/network-mesh-wire-digital-technology-background_1017-27428.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+
+}
+.text-center {
+  text-align: center;
+}
+.text-blue {
+  color: blue;
+}
+.text-primary {
+  color: #3237b4;
+}
+.text-secondary {
+  color: #ff1616;
+}
+.text-5xl {
+  font-size: 70px;
+}
+.logo {
+  position: absolute;
+  top: 10px;
+  right: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+.logo2 {
+  position: absolute;
+  top: 170px;
+  right: 70px;
+}
